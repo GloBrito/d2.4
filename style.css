@@ -1,0 +1,175 @@
+body {
+
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+   
+  }
+  .container {
+    width: 700px;
+    margin: auto;
+    color: #ffffff;
+  }
+  
+  .ola {
+    font-family: "Montserrat" ;
+    color: #0badaa;
+    font-size: 1.5rem;
+  }
+  
+  .nome {
+  font-family: "Montserrat" ; 
+  color: #293651;
+  padding: auto;
+  }
+  
+  .cargo {
+  font-family: "Montserrat" ; 
+  font-size: 1.0em;
+  color: #293651;
+  font-weight: inherit;
+  }
+  
+  .experiencia {font-family: "Montserrat" ; 
+  color: #837a7c;
+  font-size: 16px;
+  line-height: 2em;
+  font-weight: normal;
+  }
+  
+  .centralizado {
+    text-align: center;
+  }
+  
+  .hero {
+  
+    bottom: 0;
+  }
+  
+  .btn { 
+    border-radius: 5px;
+    padding:  15px 25px; /* top right bottom left */
+    background-color: #00a78e;
+    color: white;
+    border: none;
+    position: relative;
+    bottom: 560px;
+    left: 12px;
+  }
+  
+  .contratacao{
+    width: 700px;
+    margin: auto;
+    font-family: "Montserrat" ; 
+    color: #293651;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  .contrat{
+  font-family: "Montserrat" ; 
+  color: #837a7c;
+  font-size: 16px;
+  line-height: 2em;
+  font-weight: normal;
+  width: 700px;
+  margin: auto;
+  }
+  
+  .habilidades{
+    margin-top:80px ;
+  }
+  
+  .amount-progress {
+    width: 28%;
+    height: 20px;
+    left: 50px;
+    display: block;
+    margin: auto;
+    color: #00a78e;
+  
+  }
+  
+  .contrat-1{
+    width: 700px;
+    margin: auto;
+    font-family: "Montserrat" ; 
+    color: #293651;
+    font-weight: normal;
+    margin-top: 30px;
+    font-weight: bolder;
+  }
+  
+  .projetos{
+    background-color: #f9f9f9;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+  
+  }
+  
+  .projetos h2{
+    font-family: "Montserrat" ; 
+    color: #293651;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px auto;
+  }
+  
+  .quadrado{
+    background-color: #ffffff;
+    display: inline-block;
+    box-shadow: 10px 5px 5px #837a7c;
+    width: 300px;
+    font-size: 10px;
+    margin: 10px;
+  
+    
+  }
+  .text-quadrado{
+    text-align: center justify;
+    font-size: large;
+    color: #837a7c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+  }
+  
+  .icone-qdr{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    
+  }
+  
+  .text-icone{
+    color: #293651;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .contatos{
+    background-color: #00a78e;
+    display: inline-block;
+    box-shadow: 10px 5px 5px #837a7c;;
+    width: 20em;
+    font-size: 10x;
+    margin: 2px;
+  }
+  
+  .text-contat{
+    width: 700px;
+    margin: auto;
+    font-family: "Montserrat" ; 
+    color: #293651;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    font-weight: bolder;
+  }
+  
+  @media (min-width:720px){
+      
+  }
