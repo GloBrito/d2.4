@@ -1,5 +1,10 @@
-body {
+html, body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
 
+body {
     font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
@@ -10,6 +15,7 @@ body {
     width: 700px;
     margin: auto;
     color: #ffffff;
+   
   }
   
   .ola {
@@ -43,8 +49,10 @@ body {
   }
   
   .hero {
-  
-    bottom: 0;
+    /* bottom: 0; */
+    margin: auto;
+    width: 300px;
+   
   }
   
   .btn { 
@@ -53,9 +61,10 @@ body {
     background-color: #00a78e;
     color: white;
     border: none;
-    position: relative;
+    display: block;
+    /* position: relative;
     bottom: 560px;
-    left: 12px;
+    left: 12px; */
   }
   
   .contratacao{
@@ -170,6 +179,17 @@ body {
     font-weight: bolder;
   }
   
-  @media (min-width:720px){
-      
+  @media (max-width:720px){
+    .container{
+      margin: auto;
+      width: 90%;
+    }
+
+    .hero{
+      width: 50%;
+      max-width: 600px;
+
+    }
+
+
   }
